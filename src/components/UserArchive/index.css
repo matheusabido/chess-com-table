@@ -1,0 +1,35 @@
+.user-archive {
+    margin-top: 2rem;
+}
+
+.date-selector {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+input[type="checkbox"] {
+    width: 1rem;
+}
+
+.mode-selector {
+    margin-top: 1rem;
+}
+
+.mode-selector > p {
+    font-weight: 600;
+}
+
+.mode-selector > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.build-button {
+    margin-top: 1rem;
+}

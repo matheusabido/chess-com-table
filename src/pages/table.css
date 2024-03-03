@@ -1,0 +1,55 @@
+.table-progress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    height: 2rem;
+    background-color: #898989;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.progress > p {
+    position: absolute;
+    margin-left: 1rem;
+    color: #fff;
+}
+
+.progress > .value {
+    width: 0;
+    height: 100%;
+    background-color: #00b020;
+    border-radius: inherit;
+}
+
+table {
+    margin: 1rem auto;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+table :is(td, th) {
+    border: 2px solid black;
+    padding: .3rem;
+    font-size: 5rem;
+    font-weight: 500;
+}
+table th {
+    font-weight: 800;
+}
+
+.please-dont-remove-credits {
+    position: absolute;
+    width: 100%;
+    font-weight: 600;
+    margin-top: .2rem;
+    text-align: center;
+    color: #616161;
+}
