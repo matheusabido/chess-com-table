@@ -30,6 +30,7 @@
 }
 
 table {
+    min-width: 40rem;
     margin: 1rem auto;
     border-collapse: collapse;
     border: 2px solid black;
