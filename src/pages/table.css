@@ -30,6 +30,7 @@
 }
 
 table {
+    text-align: center;
     min-width: 40rem;
     margin: 1rem auto;
     border-collapse: collapse;
